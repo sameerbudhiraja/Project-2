@@ -63,11 +63,15 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 #landing-left {
     color: white;
     /* background-color: crimson; */
+height: 500px;
+width: 500px;
+
 }
 
 #landing-left h1 {
@@ -80,12 +84,19 @@ body {
     opacity: .6;
 }
 
+/* #bottomh2 {
+    width: 200px;
+    Adjust the width as needed
+] */
+
+
 #landing-right {
     color: white;
     /* background-color: skyblue; */
     height: 17vw;
     width: 37vw;
-    bottom: 0px;
+    /* top: 50px; */
+    bottom: -100px;
     right: 0px;
     position: absolute;
     border-left: 2px solid white;
@@ -102,9 +113,17 @@ body {
 #page-2 {
     height: 100vh;
     width: 100%;
-    padding-top: 150px;
+    padding-top: 200px;
     /* background-color: skyblue; */
     color: rgb(255, 255, 255);
+}
+
+#auto-type-1 {
+    cursor: none;
+}
+
+#auto-type-2 {
+    cursor: none;
 }
 
 #page-2 #center {
