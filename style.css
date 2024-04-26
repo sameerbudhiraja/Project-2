@@ -341,14 +341,6 @@ body {
     display: flex;
 }
 
-#page-6 #left-6 {
-    /* background-color: aquamarine; */
-}
-
-#page-6 #right-6 {
-    /* background-color: khaki; */
-}
-
 #services {
     display: flex;
     justify-content: center;
